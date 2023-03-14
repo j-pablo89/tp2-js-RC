@@ -9,9 +9,9 @@
 // …….
 
 
-for(let col=1;col<=30;col++){
-    for(let fila=1;fila<=col;fila++){
-        document.write(col);
+for(let fila=1;fila<=30;fila++){
+    for(let col=1;col<=fila;col++){
+        document.write(fila);
     }
     document.write('<br>');
 }
