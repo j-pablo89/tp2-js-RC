@@ -15,9 +15,9 @@ let numero;
 do{
     numero = parseInt(prompt('Ingrese un numero no mayor a 50: '));
     if(numero<=50){
-        for(let col=1;col<=numero;col++){
-            for(let fila=1;fila<=col;fila++){
-                document.write(fila);
+        for(let fila=1;fila<=numero;fila++){
+            for(let col=1;col<=fila;col++){
+                document.write(col);
             }
             document.write('<br>');
         }
